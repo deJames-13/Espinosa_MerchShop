@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Add jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">PJO's Merch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">STORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section parallax" id="hero">
+      <div class="hero-text">
+        <h1>Percy Jackson Merch Store</h1>
+        <p>Welcome to our Percy Jackson Merch Store! Here, you will find a wide selection of merchandise inspired by the
+          beloved Percy Jackson book series written by Rick Riordan. Whether you're a fan of Percy, Annabeth, Grover, or
+          any of the other memorable characters, we have something for everyone.</p>
+        <a href="#products" class="btn btn-primary">Shop Now</a>
+      </div>
+    </section>
+
+
+    <!-- Features/Categories Section -->
+    <section class="features-section" id="features" style="height: 100vh;">
+      <!-- Set height to 100vh -->
+      <div class="container-fluid px-xl-5">
+        <h2 class="text-center">Shop by Category</h2>
+        <div class="row align-items-center" style="height: 100%;">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./images/shirt.jpg" class="card-img-top" alt="T-Shirts">
+              <div class="card-body">
+                <h5 class="card-title">T-Shirts</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./images/hoodies.webp" class="card-img-top" alt="Hoodies">
+              <div class="card-body">
+                <h5 class="card-title">Hoodies</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./images/cup.jpg" class="card-img-top" alt="Mugs">
+              <div class="card-body">
+                <h5 class="card-title">Mugs</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./images/stickers.jpg" class="card-img-top" alt="Stickers">
+              <div class="card-body">
+                <h5 class="card-title">Stickers</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <h2 class="text-center">Our Products</h2>
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <!-- Pagination links will be dynamically inserted here -->
+          </ul>
+        </nav>
+        <div class="row">
+          <!-- Products will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order-form" class="order-form-section">
+      <div class="container">
+        <h2 class="text-center">Order Form</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter your address">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Order</button>
+        </form>
+      </div>
+    </section>
+
+
+
+    <!-- Features Section -->
+    <section class="promote-section py-5" id="promote">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <div class="feature-card">
+              <i class="fas fa-globe fa-3x mb-3"></i>
+              <h5>Worldwide Shipping</h5>
+              <p>We ship to over 200 countries</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-card">
+              <i class="fas fa-tshirt fa-3x mb-3"></i>
+              <h5>Best Quality</h5>
+              <p>100% Best Products</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-card">
+              <i class="fas fa-tags fa-3x mb-3"></i>
+              <h5>Best Offers</h5>
+              <p>We ship to over 200 countries</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-card">
+              <i class="fas fa-lock fa-3x mb-3"></i>
+              <h5>Secure Payments</h5>
+              <p>100% Secure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <form method="post" action="">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <img class="about-image" src="./images/screenshot_24092024_141251.png" alt="Percy Jackson Characters" />
+        <div class="about-text">
+          <h2>About Percy Jackson Merch</h2>
+          <p>Hey! You found us! Thank you for visiting our online store! Feel free to browse our site to find your
+            favorite Percy Jackson Merchandise. Percy Jackson Merchandise store is a one-stop shop because you can buy
+            many different items you want. Whether you're looking for something subtle or eye-catching, there's sure to
+            be something that catches your eye.</p>
+          <p>Show off your love for Percy Jackson with our stylish apparel. We have a variety of t-shirts, hoodies, and
+            accessories featuring iconic symbols and quotes from the series. Whether you're attending a fan convention
+            or simply want to represent your favorite demigod, our apparel will help you stand out.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="index.js"></script>
+  </body>
+
+</html>

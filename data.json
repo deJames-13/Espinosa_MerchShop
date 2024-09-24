@@ -1,0 +1,119 @@
+{
+    "products": [
+        {
+            "name": "Percy Jackson T-Shirt",
+            "image": "./images/shirt.jpg",
+            "price": "$19.99"
+        },
+        {
+            "name": "Percy Jackson Hoodies",
+            "image": "./images/hoodies.webp",
+            "price": "$29.99"
+        },
+        {
+            "name": "Percy Jackson Hoodies",
+            "image": "./images/hoodies.webp",
+            "price": "$29.99"
+        },
+        {
+            "name": "Percy Jackson T-Shirt",
+            "image": "./images/shirt.jpg",
+            "price": "$19.99"
+        },
+        {
+            "name": "Percy Jackson T-Shirt",
+            "image": "./images/shirt1.jpg",
+            "price": "$19.99"
+        },
+        {
+            "name": "Percy Jackson T-Shirt",
+            "image": "./images/shirt2.jpg",
+            "price": "$19.99"
+        },
+        {
+            "name": "Percy Jackson T-Shirt",
+            "image": "./images/shirt3.jpg",
+            "price": "$19.99"
+        },
+        {
+            "name": "Percy Jackson Cap",
+            "image": "./images/cap.webp",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cap",
+            "image": "./images/cap.webp",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cap",
+            "image": "./images/cap.webp",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Shoes",
+            "image": "./images/shoes.webp",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Shoes",
+            "image": "./images/shoes.webp",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cup",
+            "image": "./images/cup.jpg",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cup",
+            "image": "./images/cup.jpg",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cup",
+            "image": "./images/cup.jpg",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cup",
+            "image": "./images/cup.jpg",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Cup",
+            "image": "./images/cup.jpg",
+            "price": "$9.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        },
+        {
+            "name": "Percy Jackson Stickers",
+            "image": "./images/stickers.jpg",
+            "price": "$4.99"
+        }
+    ]
+}
